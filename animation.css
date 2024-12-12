@@ -1,0 +1,205 @@
+body{
+    background-image: url("../assets/gradient images/yellow_lightpink.jpg");
+    background-size: cover;
+}
+h1{
+    border: 2px solid transparent;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+    animation-name: h1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes h1 {
+   0%{
+    background-color: yellow;
+    transform: rotate(180deg);
+   }
+   25%{
+    background-color:maroon;
+   }
+   50%{
+    background-color:red;
+    transform: translatex(1760px);
+   }
+   75%{
+    background-color:green;
+   }
+   100%{
+    background-color: yellow;
+    transform: rotate(180deg);
+   }
+}
+h2{
+    position: absolute;
+    right: 0px;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: h2;
+    animation-duration: 10s;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 1200;
+}
+@keyframes h2 {
+    0%{
+    transform: rotate(180deg);
+    background-color:red;
+   }
+   25%{
+    background-color:yellow;
+   }
+   50%{
+    background-color:magenta;
+    transform: translatex(-1760px);
+   }
+   75%{
+    background-color: blue;
+   }
+   100%{
+    background-color: red;
+    transform: rotate(180deg);
+   }
+}
+h3{
+    position: absolute;
+    margin-left: 43%;
+    /* bottom: 0% ; */
+    font-size: xx-large;
+    margin-bottom: 0px;
+    border: 2px solid transparent;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: h3;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 1300;
+    /* animation-fill-mode: backwards; */
+}
+@keyframes h3 {
+    0%{
+        background-color:blue;
+    }
+    25%{
+        background-color:green;
+        transform: rotate(-180deg);
+    }
+    50%{
+        background-color:yellow;
+        transform: translatey(400px);
+    }
+    75%{
+        background-color:red;
+        transform: rotate(-90deg);
+    }
+    100%{
+        background-color:blue;
+        transform: rotate(-360deg);
+       }
+    }
+h4{
+    position: absolute;
+    margin-left: 25%;
+    /* bottom: 0% ; */
+    font-size: x-large;
+    /* margin-bottom: 0px; */
+    border: 2px solid transparent;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    border-radius: 50%;
+    background-color: olivedrab;
+    animation-name: h4;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 1180;
+}
+@keyframes h4 {
+    0%{
+        /* transform: rotate(0deg); */
+        background-color:olivedrab;
+    }
+    25%{
+        background-color:pink;
+        transform: rotate(-180deg);
+    }
+    50%{
+        background-color:grey;
+        /* transform: translatey(450px); */
+        transform: translateX(-400px);
+    }
+    75%{
+        background-color:magenta;
+        transform: rotate(-180deg);
+    }
+    100%{
+        background-color:olivedrab;
+        transform: rotate(180deg);
+        transform: translateY(450px);
+       }
+    }
+h5{
+        position: absolute;
+        margin-left: 65%;
+        /* bottom: 0% ; */
+        font-size: x-large;
+        /* margin-bottom: 0px; */
+        border: 2px solid transparent;
+        width: 100px;
+        text-align: center;
+        align-content: center;
+        height: 100px;
+        border-radius: 50%;
+        background-color: olivedrab;
+        animation-name: h5;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        z-index: 1190;
+    }
+@keyframes h5 {
+        0%{ 
+            /* transform: rotate(180deg); */
+            background-color:olivedrab;
+        }
+        25%{
+            background-color:pink;
+            transform: rotate(-180deg);
+        }
+        50%{
+            background-color:grey;
+            /* transform: translatey(450px); */
+            transform: translateX(500px);
+        }
+        75%{
+            background-color:magenta;
+            transform: rotate(-180deg);
+            /* transform: translateY(450px); */
+        }
+        100%{
+            background-color:olivedrab;
+            transform: rotate(180deg);
+            transform: translateY(450px);
+           }
+        }
